@@ -1,0 +1,108 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family:  'League Spartan', sans-serif;;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+}
+
+.principal {
+    color: hsl(303, 10%, 53%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    width: 600px;
+    position: relative;
+    top: 10px;
+}
+
+.reviews {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    padding: 8px;
+    margin: 10px;
+    width: 400px;
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+}
+
+.guru {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    padding: 8px;
+    margin: 10px;
+    width: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 200px;
+}
+
+.tech {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    padding: 8px;
+    margin: 10px;
+    width: 400px;
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+}
+.estrella {
+    content: url(./images/icon-star.svg);
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.tarjeta {
+    background-color: hsl(300, 43%, 22%);
+    height: 300;
+    border-radius: 10px;
+    color: hsl(300, 24%, 96%);;
+    margin: 5px;
+    padding: 10px;
+    width: 500px;
+    grid align-self: start;
+    }
+
+.imagen_perfil {
+    border-radius: 999px;
+}
+
+.titulo h3 {
+color: hsl(0, 0%, 100%);
+margin: 0;
+}
+
+.titulo p {
+    color: hsl(333, 80%, 67%);
+    margin: 0;
+}
+
+.principal {
+    display: grid;
+    grid grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+
+}
+
+.tarjeta-colton {
+    position: relative;
+    bottom: 50px;
+}
